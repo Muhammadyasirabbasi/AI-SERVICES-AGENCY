@@ -1,0 +1,155 @@
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SERVICES AGENCY</title>
+    
+    
+     <style>
+        
+    
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+             background-color: #f0f0f0; 
+             background-color: greenyellow; 
+        }
+
+        header {
+             
+            background-color: aqua; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+             background-color: #555; 
+           
+            color: #fff;
+            padding: 10px;
+            text-align: center; -->
+           
+        }
+<!-- 
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            margin: 0 5px;
+            
+        }
+
+        nav a:hover {
+             background-color: #777; 
+           
+        }
+
+        section {
+            padding: 20px;
+            text-align: center; */
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 10px;
+            margin: 20px auto; --> 
+            <!-- width: 80%;
+            border: 1px solid #aa1616;
+            border-radius: 30px;
+        }
+    </style>   
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#Services">Services</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>We're dedicated to providing top-notch services to our customers.<br> Explore our site to learn more about what we offer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>HI I,AM MUHAMMAD YASIR.<br>I,AM FRONT-END  DEVELOPMENT</p>
+        <p>We are a team of professionals committed to delivering exceptional services to our clients.<br> With years of experience in the industry, we strive for excellence in everything we do.</p>
+
+        <section id="services-section">
+            <h2>Our Services</h2>
+            <div id="services-container"></div>
+        </section> 
+        
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>WhatsApp: 03318349830</p>
+        <p>https://github.com/Muhammadyasirabbasi/my-portfilio/upload/main</p>
+        <p>Gmail: yasiransir19@gmail.com</p>
+    </section>
+   
+    
+    <footer>
+       <p>Made By Muhammad YASIR</p>
+    </footer>
+    
+
+    <script>
+        //  Sample services data (replace this with your actual data)
+        const servicesData = [
+            { name: "Service 1",description:"Ai contant services " },
+            { name: "Service 2", description: " Ai picture services" },
+            { name: "Service 3", description: "Ai video services" }
+             
+        ];
+
+        // Function to populate services on the webpage
+        function populateServices() {
+            const servicesContainer = document.getElementById('services-container');
+            servicesData.forEach(service => {
+                const serviceElement = document.createElement('div');
+                serviceElement.classList.add('service');
+                serviceElement.innerHTML = `
+                    <h3>${service.name}</h3>
+                    <p>${service.description}</p>
+                `;
+                servicesContainer.appendChild(serviceElement);
+            });
+        }
+
+        //  Call the function to populate services when the page loads
+        window.addEventListener('load', populateServices);
+    </script>
+</body>
+</html> 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
